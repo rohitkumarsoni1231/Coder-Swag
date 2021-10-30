@@ -85,7 +85,7 @@
                             <constraint firstItem="M9X-iD-Zsp" firstAttribute="top" secondItem="LlH-ca-mGP" secondAttribute="bottom" constant="28" id="rK9-Xu-JST"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Coder Swag" id="GjX-TL-lRE"/>
+                    <navigationItem key="navigationItem" title="Coder Swag" id="GjX-TL-lRE" colorLabel="IBBuiltInLabel-Gray"/>
                     <connections>
                         <outlet property="categoryTable" destination="DEn-mm-Lon" id="6vc-Ht-2vj"/>
                         <segue destination="X8E-Yy-h78" kind="show" identifier="ProductsVC" id="YDv-gi-5ma"/>
@@ -100,13 +100,13 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gnH-nh-1qq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CBV-LR-qeW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CBV-LR-qeW" colorLabel="IBBuiltInLabel-Gray">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.3411764706" green="0.1529411765" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.3411764705882353" green="0.15294117647058825" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="0.01753494366" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -140,17 +140,17 @@
                                 <rect key="frame" x="0.0" y="158.5" width="414" height="737.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VjQ-7V-MPn">
-                                    <size key="itemSize" width="202" height="220"/>
+                                    <size key="itemSize" width="202" height="228"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="kst-6Q-5BB" customClass="ProductCell" customModule="Coder_Swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="228"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uWg-dC-HM6">
-                                            <rect key="frame" x="0.0" y="0.0" width="202" height="220"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="202" height="228"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt01" translatesAutoresizingMaskIntoConstraints="NO" id="3Tb-SZ-hiT">
@@ -188,7 +188,7 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <size key="customSize" width="202" height="220"/>
+                                        <size key="customSize" width="202" height="228"/>
                                         <connections>
                                             <outlet property="productImage" destination="3Tb-SZ-hiT" id="MtP-8E-IrU"/>
                                             <outlet property="productPrice" destination="tth-Zs-Z7q" id="9cm-r7-2m4"/>
